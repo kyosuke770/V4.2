@@ -1,0 +1,31 @@
+no,jp,en,slots,video,lv,note,scene
+1,すぐに終わらせますね。,I'll be quick.,,1,1,相手を待たせずに手短に済ませる時。,work
+2,もう少しで{x}。,I'm almost {x}.,終わりです=done|準備ができます=ready|着きます=there,1,2,almost は完了直前の定番。,daily
+3,お待たせしました。,Sorry for the wait.,,1,1,フォーマルなら Thank you for waiting.,service
+4,今向かっています。,I'm on my way.,,1,1,移動中であることを伝える表現。,daily
+5,少し遅れます。,I'm running late.,,1,1,約束に遅れる時の定番。,daily
+6,ゆっくりどうぞ。,Take your time.,,1,1,相手を急かさない時。,daily
+7,少し{x}ありますか？,Do you have {x}?,時間=a minute|少し時間=a second,1,2,会話の切り出しに使う。,work
+8,{x}もいいですか？,Can I {x}?,一つ聞いて=ask something|ここ座って=sit here,1,2,許可を求める基本表現。,daily
+9,ご遠慮なく{x}ください。,Feel free to {x}.,聞いて=ask|参加して=join,1,2,相手に安心感を与える。,service
+10,どうしたんですか？,What happened?,,1,1,様子がおかしい時に。,daily
+11,{x}次第ですね。,It depends on {x}.,天気=the weather|交通=the traffic,1,2,状況による時の定番。,daily
+12,納得です。,That makes sense.,,1,1,理解した時の相槌。,work
+13,それなら納得です。,Fair enough.,,1,1,妥協や同意の表現。,work
+14,一理ありますね。,You have a point.,,1,1,相手の意見を認める。,work
+15,そうだと{x}。,I {x} so.,思います=suppose|思うよ=guess,1,2,控えめな同意。,daily
+16,あまり{x}ないです。,I'd rather not {x}.,言いたく=say|行きたく=go,1,2,やんわり断る。,daily
+17,私が{x}よ。,I'll {x}.,やります=handle it|確認=check it,1,2,引き受ける時。,work
+18,{x}ありがとうございます。,Thanks for {x}.,ご理解=understanding|お待ち=waiting,1,2,丁寧な感謝。,work
+19,{x}感謝します。,I appreciate {x}.,お気持ち=the offer|助け=your help,1,2,よりフォーマル。,work
+20,気にしないで。,No worries.,,1,1,謝罪への返答。,daily
+21,うっかり忘れてました。,It slipped my mind.,,1,1,うっかり忘れた。,daily
+22,予想外でした。,I didn't see that coming.,,1,1,完全に想定外。,daily
+23,{x}を見ましょう。,Let's see {x}.,様子=how it goes|どうなるか=what happens,1,2,経過観察。,work
+24,また連絡します。,Let's keep in touch.,,1,1,別れ際の挨拶。,daily
+25,また{x}で。,I'll catch you {x}.,後で=later|すぐに=soon,1,2,カジュアルな別れ。,daily
+26,お先にどうぞ。,Please go ahead.,,1,1,順番を譲る。,service
+27,{x}でしょう。,You must be {x}.,お疲れ=tired|お腹空いた=hungry,1,2,相手の状態推測。,daily
+28,大丈夫ですか？,Is everything all right?,,1,1,体調や状況確認。,daily
+29,{x}もらえますか？,Could you {x}?,説明=explain|詳しく=elaborate,1,2,丁寧な依頼。,work
+30,残念ながら{x}です。,I'm afraid {x}.,そうです=so|できません=I can't,1,2,断りのクッション。,service
