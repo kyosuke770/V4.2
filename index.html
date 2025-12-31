@@ -1,0 +1,102 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Instant English</title>
+  <link rel="stylesheet" href="./style.css?v=1" />
+</head>
+<body>
+
+  <!-- HOME -->
+  <div id="homeView">
+    <header class="topbar">
+      <div class="title">Instant English</div>
+      <div class="sub">iPhoneだけで回す瞬間英作文</div>
+    </header>
+
+    <section class="cardBox">
+      <div class="rowBetween">
+        <div class="hLabel">今日の進捗</div>
+        <div id="dailyText" class="hValue">今日: 0 / 10</div>
+      </div>
+      <div class="barWrap">
+        <div id="dailyBar" class="bar"></div>
+      </div>
+    </section>
+
+    <section class="cardBox">
+      <div class="rowBetween">
+        <div class="hLabel">ブロック進捗</div>
+        <div id="progressText" class="hValue">進捗：Lv1 0 / 0</div>
+      </div>
+      <div class="barWrap">
+        <div id="progressBar" class="bar"></div>
+      </div>
+    </section>
+
+    <section class="homeActions">
+      <button id="homeDue" class="primaryBtn">復習（Due）</button>
+      <button id="homeVideo" class="ghostBtn">動画順モード</button>
+    </section>
+
+    <section class="cardBox">
+      <div class="hLabel">シーンで絞り込み</div>
+      <div id="scenes" class="chips"></div>
+    </section>
+
+    <section class="cardBox">
+      <div class="hLabel">ブロック一覧（動画ごと）</div>
+      <div id="blockTable"></div>
+    </section>
+
+    <footer class="footer">
+      <div class="hint">※ CSVを /data に追加するだけで増えます</div>
+    </footer>
+  </div>
+
+  <!-- STUDY -->
+  <div id="studyView" class="hidden">
+    <header class="studyTop">
+      <button id="backHome" class="iconBtn">←</button>
+      <div class="studyTitle">Study</div>
+      <div class="studyBtns">
+        <button id="review" class="ghostBtn small">Due</button>
+        <button id="videoOrder" class="ghostBtn small">動画順</button>
+      </div>
+    </header>
+
+    <section class="levelRow">
+      <button id="lv1Btn" class="lvBtnTop">Lv1</button>
+      <button id="lv2Btn" class="lvBtnTop">Lv2</button>
+      <button id="lv3Btn" class="lvBtnTop">Lv3</button>
+    </section>
+
+    <main class="studyMain">
+      <div id="card" class="card">
+        <div class="jp" id="jp">CSV読み込み中…</div>
+        <div class="en" id="en"></div>
+      </div>
+
+      <div class="noteArea">
+        <div id="noteText" class="noteText"></div>
+      </div>
+
+      <div class="navRow">
+        <button id="next" class="ghostBtn wide">次へ</button>
+      </div>
+
+      <div class="gradeRow">
+        <button id="g1" class="grade g1">Again<br><span>5m</span></button>
+        <button id="g2" class="grade g2">Hard<br><span>6h</span></button>
+        <button id="g3" class="grade g3">OK<br><span>12h</span></button>
+        <button id="g4" class="grade g4">Good<br><span>72h</span></button>
+        <button id="g5" class="grade g5">Easy<br><span>12d</span></button>
+      </div>
+    </main>
+  </div>
+
+  <script src="./app.js?v=1"></script>
+</body>
+</html>
